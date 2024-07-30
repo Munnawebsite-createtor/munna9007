@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="bg-fixed">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="input.css">
+
+    <link rel="shortcut icon" href="img/lock.svg"|>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+
+<style>
+    #check:checked ~ ul{
+            left:0;
+        }
+</style>
+<body>
+    
+<nav class="bg-slate-600 w-full h-20 fixed">
+    <input type="checkbox" id="check" hidden >
+    <label for="check" class="float-right text-white text-3xl leading-[80px] mr-10 lg:hidden">
+        <i class="fas fa-bars"></i>
+    </label>
+    
+    <label class="text-white md:leading-[80px] pl-12 md:pl-24 md:text-4xl text-3xl">navigation </label>
+    <ul class="float-right mr-10 lg:flex leading-[80px] space-x-4 text-white uppercase rounded fixed lg:relative h-[100vh] lg:h-0 w-[100%]
+    lg:w-fit top-20 lg:top-0 left-[-100%] lg:left-0 transition-all duration-500 lg:transition-none text-center bg-slate-700">
+        
+    <li><a class=" bg-lime-700 rounded-lg duration-500 py-7px px-7px hover:bg-red-400 hover:text-white p-2" href="#">Home</a></li>
+        <li><a class="py-7px px-13px hover:bg-red-400 hover:text-white p-2" href="#">About</a></li>
+        <li><a class="py-7px px-13px hover:bg-red-400 hover:text-white p-2" href="#">Services</a></li>
+        <li><a class="py-7px px-13px hover:bg-red-400 hover:text-white p-2" href="#">Team</a></li>
+        <li><a class="py-7px px-13px hover:bg-red-400 hover:text-white p-2" href="#">Contact</a></li>
+        
+
+    </ul>
+</nav>
+
+<div class="border-green-300 w-screen h-screen flex items-center">
+
+
+    
+    <div  class="bg-red-100 w-10/12 h-96 m-10 rounded-lg"><span class="text-green-700 font-bold">Botanica - </span><span>Organic Food</span></div>
+    <div  class="bg-red-100 w-1/2 h-36 m-10">3</div>
+    
+    <div  class="bg-red-100 w-1/2 h-36 m-10">2</div>
+    <div  class="bg-red-100 w-1/2 h-36 m-10">3</div>
+    
+  </div>
+
+
+
+
+
+
+
+  
+</body>
+</html>
